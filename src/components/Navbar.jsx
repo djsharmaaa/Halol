@@ -22,11 +22,14 @@ export default function Navbar() {
   const { theme } = useTheme();
 
   const navLinks = [
+    { href: '/tourism', label: 'Tourism', icon: <MdWeb size={18} /> },
+
     { href: '/', label: 'Home', icon: <MdHome size={18} /> },
     { href: '/about', label: 'About Us', icon: <MdInfo size={18} /> },
     { href: '/services', label: 'Services', icon: <MdMiscellaneousServices size={18} /> },
     { href: '/e-governance', label: 'E-Governance', icon: <MdLanguage size={18} /> },
     { href: '/online-services', label: 'Online Services', icon: <MdWeb size={18} /> },
+
     { href: '/news', label: 'NEWS', icon: <MdAnnouncement size={18} /> },
     { href: '/contacts', label: 'CONTACTS', icon: <MdContacts size={18} /> },
     { href: '/complaint', label: 'COMPLAINT', icon: <MdReportProblem size={18} /> },
