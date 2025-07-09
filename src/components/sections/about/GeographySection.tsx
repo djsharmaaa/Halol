@@ -7,7 +7,7 @@ export default function Geography() {
     <section className="bg-white dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
      
-                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-10">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-gray-900 dark:text-white mb-10">
 
         Geography <span className="text-[#b34700]">& Structure</span>
       </h2>
